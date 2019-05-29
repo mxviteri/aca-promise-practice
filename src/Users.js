@@ -9,6 +9,8 @@ state = {
 }
 
 getUsers=()=> {
+  // make fetch call to the following endpoint: https://jsonplaceholder.typicode.com/users 
+  
 }
   render() {
     return (
@@ -38,3 +40,4 @@ const mapDispatchToProps = (dispatch) => {
 }
 
 export default connect(mapStateToProp, mapDispatchToProps)(Users);
+
