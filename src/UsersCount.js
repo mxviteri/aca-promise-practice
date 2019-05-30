@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { connect } from 'react-redux'
 
 const UsersCount = (props) => {
   return (
@@ -9,5 +10,10 @@ const UsersCount = (props) => {
     </div>
   )
 }
+const mapStateToProps = (state) => {
+  return {
+    users: state.users
+  }
+}
 
-export default UsersCount
+export default connect(mapStateToProps)(UsersCount)

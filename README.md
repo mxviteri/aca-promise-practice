@@ -5,8 +5,8 @@ Most of the React and Redux setup has been done for you. The goal is to connect 
 * Run `npm i` and `npm start`
 
 ## Normal React State
-* Create state in the Users component with a property of `users`. The default value can be an empty array: `[]`
-* In the same component, create a method called `getUsers` and call it when the button is clicked
+** Create state in the Users component with a property of `users`. The default value can be an empty array: `[]`
+** In the same component, create a method called `getUsers` and call it when the button is clicked
 * Inside this method, make a fetch call to the following endpoint:
   https://jsonplaceholder.typicode.com/users
 * Set users to the results of the fetch call. 
